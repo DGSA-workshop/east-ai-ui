@@ -24,18 +24,6 @@
     component: './Inpaint',
   },
   {
-    path: '/agent',
-    name: 'llm.agent',
-    icon: 'BulbOutlined',
-    component: './Agent',
-  },
-  {
-    path: '/bedrock-knowledgebase',
-    name: 'bedrock.knowledgebase',
-    icon: 'BookOutlined',
-    component: './BedrockKB',
-  },
-  {
     path: '/about',
     name: 'about',
     icon: 'QuestionOutlined',

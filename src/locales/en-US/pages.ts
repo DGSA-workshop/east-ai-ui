@@ -29,8 +29,7 @@ export default {
   'pages.marketingText.result.help': `Enter your content to start your copywriting, and Constant Chat can be modified.`,
   'pages.marketingText.modelId.title': 'LLM Model',
   'pages.marketingText.model.chatglm2': "SageMaker-ChatGLM v2",
-  'pages.marketingText.model.bedrockClaude2': "Bedrock-Claude2",
-  'pages.marketingText.model.bedrockClaude3': "Bedrock-Claude3 Sonnet",
+  'pages.marketingText.model.bedrockMistral7b': "Bedrock: Mistral7b",
   'pages.marketingText.prompt.defaultValue': "Car, fashion",
   'pages.marketingText.patterns.twitter': "X.com",
   'pages.marketingText.patterns.instagram': "Instagram",
@@ -69,15 +68,4 @@ export default {
   'pages.inpainting.prompt.title': `Describe your idea`,
   'pages.inpainting.nprompt.title': `Avoid in the picture`,
   'pages.inpainting.count.title': `Count`,
-  // Agent
-  'pages.Agent.input.placeholder': `Please enter task prompt, e.g. "Please generate an image based on the following prompts: Modern tent", or "Please replace the background of the tent in the following image (s3://sample/sample.png) with a snow-capped mountain"`,
-  'pages.Agent.prompt.required': `Prompt required.`,
-  'pages.agent.result.help': `Please enter your task prompt, e.g. Please generate an image based on the following prompts: Modern tent, or Please replace the background of the tent in the following image (s3://sample/sample.png) with a snow-capped mountain`,
-
-  //KB
-  'pages.bedrockKB.prompt.title': `Question`,
-  'pages.bedrockKB.prompt.placeholder': ``,
-  'pages.bedrockKB.prompt.required': `Ask a question`,
-  'pages.bedrockKB.prompt.defaultValue': `How to proctect S3 Data?`,
-  'pages.bedrockKB.result.help': `Please ask a question. e.g. "How to proctect S3 Data?"。`,
 };

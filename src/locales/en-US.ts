@@ -12,7 +12,7 @@ export default {
   'layout.user.link.help': 'Help',
   'layout.user.link.privacy': 'Privacy',
   'layout.user.link.terms': 'Terms',
-  'app.copyright.produced': 'AWS China CS East Team',
+  'app.copyright.produced': 'AWS China DGSA Team',
   'app.copyright.corp': 'AWS China',
   ...globalHeader,
   ...menu,

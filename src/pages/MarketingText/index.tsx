@@ -17,7 +17,7 @@ const MarketingText: React.FC = () => {
   const [question, setQuestion] = useState('');
   const [loading, setLoading] = useState(false);
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [model_id, setModel_id] = useState('bedrock_claude3');
+  const [model_id, setModel_id] = useState("Bedrock: Mistral7B");
   //  const [messageApi, contextHolder] = ant_message.useMessage();
 
   type FieldType = {
@@ -209,7 +209,7 @@ const MarketingText: React.FC = () => {
       id: 'pages.marketingText.prompt.defaultValue',
     }),
     pattern: 'redbook',
-    model_id: 'bedrock_claude3',
+    model_id: 'Bedrock: Mistral7B',
   };
 
   return (
@@ -240,17 +240,11 @@ const MarketingText: React.FC = () => {
                 name="model_id"
               >
                 <Select onChange={handleModelChange}>
-                  <Select.Option value="bedrock_claude3">
-                    {intl.formatMessage({ id: 'pages.marketingText.model.bedrockClaude3' })}
-                  </Select.Option>
-                  <Select.Option value="bedrock_claude2">
-                    {intl.formatMessage({ id: 'pages.marketingText.model.bedrockClaude2' })}
+                  <Select.Option value="mistral_7b">
+                    {intl.formatMessage({ id: 'pages.marketingText.model.bedrockMistral7b' })}
                   </Select.Option>
                   <Select.Option value="chatglm2">
                     {intl.formatMessage({ id: 'pages.marketingText.model.chatglm2' })}
-                  </Select.Option>
-                  <Select.Option value="mistral_7b">
-                    {intl.formatMessage({ id: 'pages.marketingText.model.bedrockMistral7b' })}
                   </Select.Option>
                 </Select>
               </Form.Item>

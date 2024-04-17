@@ -152,9 +152,9 @@ const MarketingText: React.FC = () => {
     // return false;
     return isImage && isLt;
   };
-  const handleModelChange = (value: string) => {
-    setModel_id(value);
-  };
+  // const handleModelChange = (value: string) => {
+  //   setModel_id(value);
+  // };
   const handleTitanSizeChange = (value: string) => {
     const w_h = titan_w_h_s[value];
     setWidth(w_h[0]);
@@ -199,15 +199,9 @@ const MarketingText: React.FC = () => {
                 })}
                 name="model_id"
               >
-                <Select onChange={handleModelChange}>
+                <Select disabled>
                   <Select.Option value="product_design">
                     {intl.formatMessage({ id: 'pages.productDesign.model.realityStyle' })}
-                  </Select.Option>
-                  <Select.Option value="bedrock_sdxl">
-                    {intl.formatMessage({ id: 'pages.productDesign.model.bedrockSDXL' })}
-                  </Select.Option>
-                  <Select.Option value="bedrock_titan">
-                    {intl.formatMessage({ id: 'pages.productDesign.model.bedrockTitan' })}
                   </Select.Option>
                 </Select>
               </Form.Item>

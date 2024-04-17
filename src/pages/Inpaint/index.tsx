@@ -40,9 +40,9 @@ const Inpaint: React.FC = () => {
     sam_prompt?: string;
   };
 
-  const toHttpImage = (s3_url: string) => {
-    return s3_url.replace('s3://east-ai-workshop', 'https://d1onssyrnp1eaq.cloudfront.net');
-  };
+  // const toHttpImage = (s3_url: string) => {
+  //   return s3_url.replace('s3://east-ai-workshop', 'https://d1onssyrnp1eaq.cloudfront.net');
+  // };
   const onFinish = async (values: any) => {
     // console.log(values)
     setLoading(true);
@@ -135,12 +135,9 @@ const Inpaint: React.FC = () => {
               <Form.Item<FieldType>
                 label={intl.formatMessage({ id: 'pages.inpainting.modelId.title' })}
                 name="model_id">
-                <Select>
+                <Select disabled>
                   <Select.Option value="product_design">{
                     intl.formatMessage({ id: 'pages.inpainting.model.realityStyle' })
-                  }</Select.Option>
-                  <Select.Option value="product_inpaint">{
-                    intl.formatMessage({ id: 'pages.inpainting.model.optionStyle' })
                   }</Select.Option>
                 </Select>
               </Form.Item>
