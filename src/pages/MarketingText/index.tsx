@@ -17,7 +17,7 @@ const MarketingText: React.FC = () => {
   const [question, setQuestion] = useState('');
   const [loading, setLoading] = useState(false);
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [model_id, setModel_id] = useState("Bedrock: Mistral7B");
+  const [model_id, setModel_id] = useState('mistral_7b');
   //  const [messageApi, contextHolder] = ant_message.useMessage();
 
   type FieldType = {
@@ -209,7 +209,7 @@ const MarketingText: React.FC = () => {
       id: 'pages.marketingText.prompt.defaultValue',
     }),
     pattern: 'redbook',
-    model_id: 'Bedrock: Mistral7B',
+    model_id: 'mistral_7b',
   };
 
   return (
