@@ -1,11 +1,5 @@
 ﻿export default [
   {
-    path: '/welcome',
-    name: 'welcome',
-    icon: 'smile',
-    component: './Welcome',
-  },
-  {
     path: '/marketing-text',
     name: 'llm.marketing-text',
     icon: 'FileTextOutlined',
@@ -22,12 +16,6 @@
     name: 'sd.inpaint',
     icon: 'FileImageOutlined',
     component: './Inpaint',
-  },
-  {
-    path: '/about',
-    name: 'about',
-    icon: 'QuestionOutlined',
-    component: './About',
   },
   // {
   //   path: '/sd-product-edit',
@@ -67,7 +55,7 @@
   // },
   {
     path: '/',
-    redirect: '/welcome',
+    redirect: '/marketing-text',
   },
   {
     path: '*',
