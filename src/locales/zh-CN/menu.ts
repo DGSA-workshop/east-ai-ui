@@ -5,7 +5,7 @@ export default {
   'menu.llm.marketing-text': '营销文案',
   'menu.llm.customer-bot': '智能客服',
   'menu.sd.product-design': '创意设计',
-  'menu.sd.inpaint': '背景变焕',
+  'menu.sd.inpaint': '背景变换',
   'menu.llm.agent': '智能代理',
   'menu.bedrock.knowledgebase': '智能问答',
   'menu.about': '关于',
