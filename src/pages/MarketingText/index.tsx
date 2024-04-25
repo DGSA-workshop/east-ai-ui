@@ -243,8 +243,8 @@ const MarketingText: React.FC = () => {
                   <Select.Option value="mistral_7b">
                     {intl.formatMessage({ id: 'pages.marketingText.model.bedrockMistral7b' })}
                   </Select.Option>
-                  <Select.Option value="chatglm2">
-                    {intl.formatMessage({ id: 'pages.marketingText.model.chatglm2' })}
+                  <Select.Option value="chatglm3">
+                    {intl.formatMessage({ id: 'pages.marketingText.model.chatglm3' })}
                   </Select.Option>
                 </Select>
               </Form.Item>
