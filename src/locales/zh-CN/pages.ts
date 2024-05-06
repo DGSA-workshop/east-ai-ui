@@ -33,7 +33,7 @@ export default {
   'pages.marketingText.modelId.title': '大语言模型',
   'pages.marketingText.model.chatglm3': 'SageMaker-ChatGLM v3',
   'pages.marketingText.model.bedrockMistral7b': 'Bedrock: Mistral7b',
-  'pages.marketingText.prompt.defaultValue': '汽车，时尚',
+  'pages.marketingText.prompt.defaultValue': '高山帐篷，抗风，保暖，海拔5000米',
   'pages.marketingText.patterns.twitter': 'X.com',
   'pages.marketingText.patterns.instagram': 'Instagram',
   'pages.marketingText.patterns.tiktok': 'TikTok',
